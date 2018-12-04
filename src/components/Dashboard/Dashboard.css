@@ -1,0 +1,18 @@
+.dashboard{
+   
+}
+#myChart1 {
+    flex-basis: 250px; 
+    height: 40%;
+    box-shadow: 10px 10px 5px 0 rgba(230,230,230,1);
+    margin: 10px;
+    border-radius: 5px;
+   }
+
+   .column {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-left: 25px;
+  }

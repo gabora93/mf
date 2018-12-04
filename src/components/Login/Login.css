@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+  }
+
+.loginContainer{
+    color: gray;
+    font-family:'Lucida Sans Regular';
+    
+}
+
+
+.largocard{
+    width:40%;
+    
+    margin-top: 3em;
+}
+
+.inputs{
+    margin-top: 15px;
+}
+
+.Logo {
+
+    margin-bottom: 32px;
+}
+
+
+
+.form-signin{
+    padding:0;
+}
+
+@media (max-width:768px){flex-direction:column}
