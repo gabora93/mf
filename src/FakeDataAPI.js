@@ -1,18 +1,19 @@
 const data = {
+    
     account : {
-        disponible: {
-            mxn : 250.000,
-            usd : 2000
+        mxn: {
+            disponible : 250000,
+            invertido : 50000,
+            demora : 10000
         },
-        invertido: {
-            mxn : 50.000
-        },
-        demora: { 
-            mxn : 10.000
+        usd: {
+            disponible : 2000,
+            invertido : 0,
+            demora : 0
         }
     },
-    portafolio : {
-        0 : {
+    portafolio : [
+         {
             fecha : '10-ago-18',
             plazo : '30',
             taza : '12%',
@@ -20,7 +21,7 @@ const data = {
             pagador: 'Ford Motor',
             estatus: 'En tiempo'
         },
-        1 : {
+         {
             fecha : '10-sep-18',
             plazo : '30',
             taza : '9%',
@@ -28,7 +29,7 @@ const data = {
             pagador: 'Ford Motor',
             estatus: 'En tiempo'
         },
-        2 : {
+        {
             fecha : '1-sep-18',
             plazo : '45',
             taza : '15%',
@@ -36,7 +37,7 @@ const data = {
             pagador: 'Ford Motor',
             estatus: 'En tiempo'
         },
-        3 : {
+        {
             fecha : '10-sep-18',
             plazo : '50',
             taza : '8%',
@@ -44,7 +45,27 @@ const data = {
             pagador: 'Ford Motor',
             estatus: 'En demora'
         },
+    ],
+    inversiones:{
+        automotriz:40,
+        inmobiliaria:20,
+        ganaderia:15,
+        financieras:15,
+        construccion:15
+    },
+    rendimiento:{
+        enero: 20,
+        febrero: 30,
+        marzo: 15,
+        abril: 39,
+        mayo: 45,
+        junio: 46
+    },
+    proyeccion:{
+        MercadoFacturas : '20%',
+        Banco: 3.2
     }
 }
 
 export default data;
+

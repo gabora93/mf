@@ -124,9 +124,9 @@ class Login extends Component{
        
         return(
             <div className='d-flex justify-content-center loginContainer'>
-                 <div className='largocard'>
+                 <div className='largocard justify-content-center'>
 
-                     <div className='Logo'>
+                     <div className='Logo justify-content-center'>
                          <Logo/>
                      </div>
 
@@ -147,9 +147,16 @@ class Login extends Component{
                         </div>
 
                         <hr/>
-                        <div>
+                        <div className='d-flex  justify-content-between'>
+                            
+                      
+                            
                             <p>¿No tienes cuenta? <a href="/">Registrate Aquí</a></p>
+                          
+                           
+                     
                         </div>
+                        
                         
                         <hr/>
                         <div className='footerLogin'>

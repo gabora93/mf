@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import './SideBar.css';
 import LogoGray from '../Logo/Logogray';
 import { FaUser, FaChartLine, FaFileInvoice, FaWallet, FaExchangeAlt, FaCalendar, FaBriefcase, FaQuestionCircle, FaFile, FaFileInvoiceDollar } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 
 class SideBar extends Component{
 
@@ -16,7 +16,7 @@ class SideBar extends Component{
                     </a>
                 </li>
                 <li>
-                    <a href="/"><FaUser /> Mi Perfil </a>
+                    <Link to='/'><FaUser /> Mi Perfil </Link>
                 </li>
                 <li>
                     <a href="/"><FaChartLine/> Dashboard</a>
